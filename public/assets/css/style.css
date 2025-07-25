@@ -1,0 +1,97 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  min-height: 100vh;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.sidebar .nav-link {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 12px 20px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.sidebar .nav-link i {
+  margin-right: 10px;
+  font-size: 1.1rem;
+}
+.stat-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+.stat-icon {
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+.card-hadir {
+  background: linear-gradient(45deg, #2ecc71, #27ae60);
+}
+.card-izin {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+}
+.card-sakit {
+  background: linear-gradient(45deg, #f39c12, #d35400);
+}
+.card-alpa {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+}
+.dashboard-header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 15px 0;
+  margin-bottom: 25px;
+}
+.chart-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.status-badge {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.badge-hadir {
+  background-color: #d4edda;
+  color: #155724;
+}
+.badge-izin {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+.badge-sakit {
+  background-color: #fff3cd;
+  color: #856404;
+}
+.badge-alpa {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+.action-btn {
+  padding: 5px 10px;
+  margin: 0 3px;
+  border-radius: 4px;
+}
